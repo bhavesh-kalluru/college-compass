@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+.streamlit/.cache/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Logs ----
+*.log
+
+# ---- Environment files (DO NOT COMMIT) ----
+.env
+.env.*
